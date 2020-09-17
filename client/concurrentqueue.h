@@ -30,8 +30,8 @@
 
 #pragma once
 
-#include "../common/TracyAlloc.hpp"
-#include "../common/TracyForceInline.hpp"
+#include "common/TracyAlloc.hpp"
+#include "common/TracyForceInline.hpp"
 
 #if defined(__GNUC__)
 // Disable -Wconversion warnings (spuriously triggered when Traits::size_t and

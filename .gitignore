@@ -19,3 +19,10 @@ manual/tracy.pdf
 manual/tracy.synctex.gz
 manual/tracy.toc
 profiler/build/win32/packages
+
+# Bazel Build Artifacts
+bazel-testlogs
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-tracy

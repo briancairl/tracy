@@ -4,9 +4,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "../common/TracySystem.hpp"
-#include "../common/TracyAlign.hpp"
-#include "../common/TracyAlloc.hpp"
+#include "common/TracySystem.hpp"
+#include "common/TracyAlign.hpp"
+#include "common/TracyAlloc.hpp"
 #include "TracyProfiler.hpp"
 
 namespace tracy

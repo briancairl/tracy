@@ -10,12 +10,12 @@
 #include "concurrentqueue.h"
 #include "TracyCallstack.hpp"
 #include "TracyFastVector.hpp"
-#include "../common/tracy_lz4.hpp"
-#include "../common/TracyQueue.hpp"
-#include "../common/TracyAlign.hpp"
-#include "../common/TracyAlloc.hpp"
-#include "../common/TracyMutex.hpp"
-#include "../common/TracySystem.hpp"
+#include "common/tracy_lz4.hpp"
+#include "common/TracyQueue.hpp"
+#include "common/TracyAlign.hpp"
+#include "common/TracyAlloc.hpp"
+#include "common/TracyMutex.hpp"
+#include "common/TracySystem.hpp"
 
 #if defined _MSC_VER || defined __CYGWIN__
 #  include <intrin.h>

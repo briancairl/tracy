@@ -3,8 +3,8 @@
 
 #include <stddef.h>
 
-#include "../common/TracyAlloc.hpp"
-#include "../common/TracyForceInline.hpp"
+#include "common/TracyAlloc.hpp"
+#include "common/TracyForceInline.hpp"
 
 namespace tracy
 {

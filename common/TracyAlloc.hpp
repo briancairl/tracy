@@ -4,7 +4,7 @@
 #include <cstdlib>
 
 #ifdef TRACY_ENABLE
-#  include "../client/tracy_rpmalloc.hpp"
+#  include "client/tracy_rpmalloc.hpp"
 #endif
 
 namespace tracy

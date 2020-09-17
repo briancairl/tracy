@@ -4,8 +4,8 @@
 #include <atomic>
 #include <limits>
 
-#include "../common/TracySystem.hpp"
-#include "../common/TracyAlign.hpp"
+#include "common/TracySystem.hpp"
+#include "common/TracyAlign.hpp"
 #include "TracyProfiler.hpp"
 
 namespace tracy

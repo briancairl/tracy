@@ -35,10 +35,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../common/TracyAlign.hpp"
-#include "../common/TracyProtocol.hpp"
-#include "../common/TracySocket.hpp"
-#include "../common/TracySystem.hpp"
+#include "common/TracyAlign.hpp"
+#include "common/TracyProtocol.hpp"
+#include "common/TracySocket.hpp"
+#include "common/TracySystem.hpp"
 #include "tracy_rpmalloc.hpp"
 #include "TracyCallstack.hpp"
 #include "TracyScoped.hpp"
